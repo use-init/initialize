@@ -1,0 +1,43 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
+    "no-extra-semi": "warn",
+    "no-console": "error",
+    "import/no-extraneous-dependencies": "off",
+    "import/no-unresolved": "off",
+    "import/first": "off",
+    "import/extensions": "off",
+    "semi": "off",
+    "no-underscore-dangle": "off",
+    "max-len": ["error", 140],
+    "no-static-element-interactions" : "off",
+    "react/no-string-refs" : "off",
+    "class-methods-use-this":"off",
+    "no-restricted-syntax":"off",
+    "no-mixed-operators":"off",
+    "no-continue":"off",
+    "react/jsx-boolean-value": "off",
+    "no-param-reassign": "off",
+    "react/jsx-no-bind": "off",
+    "react/forbid-prop-types": "off",
+    "jsx-a11y/anchor-has-content": "off",
+    "arrow-body-style": ["error", "as-needed"]
+  }
+}
