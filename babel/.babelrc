@@ -1,0 +1,9 @@
+{
+  "presets": [
+    "env",
+    "typescript"
+  ],
+  "plugins": [
+    "transform-typescript"
+  ]
+}
